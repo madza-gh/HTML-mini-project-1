@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <title>Document</title>
+    <style>
+      table,td,tr,caption,th{
+        border: 1px solid #333;
+        border-collapse: collapse;
+        padding: 0.5rem;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -84,6 +91,44 @@
         <img src="pics/laptop/laptop-200-200.jpg" alt="" />
         <img src="pics/laptop/laptop-200-200.jpg" alt="" />
       </div>
+
+      <table>
+        <caption>compare with similar products</caption>
+        <thead>
+          <tr>
+            <th>model</th>
+            <th>cpu</th>
+            <th>ram</th>
+            <th>hard</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>dell 1548</th>
+            <td>core i7 13400</td>
+            <td>16 GB</td>
+            <td>256 SSD</td>
+          </tr>
+          <tr>
+            <th>dell 1650</th>
+            <td>core i7 14400</td>
+            <td>16 GB</td>
+            <td>512 SSD</td>
+          </tr>
+          <tr>
+            <th>dell 1750</th>
+            <td>core i7 15400</td>
+            <td>32 GB</td>
+            <td>1 TB SSD</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="4">you can buy all these models from our site.</td>
+          </tr>
+        </tfoot>
+      </table>
+
     </main>
 
     <footer>made by Mozami</footer>
